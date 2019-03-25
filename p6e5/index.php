@@ -14,7 +14,6 @@
                 echo 'Les paramètres n\'existent pas';
             }
             ?>
-
         </p>
     </body>
 </html>
