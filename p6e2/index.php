@@ -9,11 +9,10 @@
         <p>
           <!--isset() est une fonction qui teste si une variable existe. -->  
             <?php
-            
-            if (isset($_GET['age'])) {
-                echo $_GET['age'];
+            if (isset($_GET['lastname']) && isset($_GET['firstname']) && isset($_GET['age'])) {
+                echo $_GET['age'] . ' ' . $_GET['lastname'] . ' ' . $_GET['firstname'];;
             } else {
-                echo $_GET['lastname'] . ' ' . $_GET['firstname'];
+                echo 'erreur';
             }
             ?>
         </p>
